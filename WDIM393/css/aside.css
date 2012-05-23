@@ -1,0 +1,43 @@
+aside{
+  /*border:solid 1px hsla(180,25%,35%,1);*/
+  background: hsla(180,25%,75%,1);
+  position:relative;
+  width:178px;
+  float:left;
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+  font-size:12px;
+  top:25px;
+  left:15px;
+  z-index:4px;
+}
+#page{
+  width:960px;
+  margin:0 auto;
+  background: hsla(180,25%,95%,1);
+}
+#group{
+  
+  width:780px;
+  float:left;
+}
+blockquote p{
+  padding:10px;
+}
+aside:before{
+  z-index:-2;
+  position:absolute; top: 0px; left: 28px;
+  display:block;
+  height:150px;
+  width:150px;
+  background: hsla(180,35%,15%,1);
+  background-image:-moz-linear-gradient(top, hsla(180, 35%, 65%,1),hsla(180, 35%, 60%,1) 45%, hsla(180, 35%, 50%,1) 100%);
+  background-image:-webkit-linear-gradient(top, hsla(180, 35%, 25%,1),hsla(180, 35%, 20%,1) 45%, hsla(180, 35%, 10%,1) 100%);
+  background-image: linear-gradient(top, hsla(180, 35%, 25%,1),hsla(180, 35%, 20%,1) 45%, hsla(180, 35%, 10%,1) 100%);
+  transform-origin: top right;
+  -webkit-transform-origin: top right;
+  -moz-transform-origin:top right;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  content:"";
+}

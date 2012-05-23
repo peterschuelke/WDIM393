@@ -1,0 +1,70 @@
+/* ----------------- whatever SECTION ------------------ */
+h1{
+  font-size:36px;
+  padding:30px 0px 35px 50px;
+  
+}
+section#whatever {
+  position:relative;
+  background:-moz-linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(195, 45%, 60%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(190, 45%, 60%,1) 100%);
+  background:linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(190, 45%, 60%,1) 100%);
+  padding:10px;
+  border-radius:2px;
+  width:980px;
+  height:80px;
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+	margin-left:-20px;
+}
+
+#whatever:before{
+  z-index:-2;
+  position:absolute; bottom:0; left:0;
+  display:block;
+  height:50px;
+  width:50px;
+  background:hsla(190,50%,40%,1);
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin:bottom left;
+  transform-origin:bottom left;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+  content:"";
+}
+
+#whatever h2:after{ /*Won't work on section*/
+  z-index:-2;
+  position:absolute; top:-17px; right:-2px;
+  display:block;
+  height:50px;
+  width:50px;
+  background:hsla(190,50%,50%,1);
+  -webkit-transform-origin:top left;
+  -moz-transform-origin:top left;
+  transform-origin:top left;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+  content:"";
+}
+
+#whatever h2 {
+  margin-top:-10px;
+  padding-left: 10px;
+  font-size: 72px;
+  text-shadow:1px 1px 0 #fff;
+}
+#h1{
+  font-size:36px;
+  padding:30px 0px 35px 50px;
+  
+}
+.member{
+	width:780px;
+}
+figure{
+	margin-right:0px;
+}
+
+/* ----------------- END whatever ------------------ */

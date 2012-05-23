@@ -1,0 +1,139 @@
+
+body{
+	background-image:url(images/background.png);
+	background-color:black;
+}
+
+
+
+
+
+header{
+	position:absolute;
+	z-index: 400;
+	width:500px;
+	height:50px;
+	top:50%;
+	left:50%;
+	margin-top: -25px;
+	margin-left: -250px;
+}
+
+
+
+
+h1{
+	width:600px;
+	margin:0 auto;
+	font-family: 'Michroma', sans-serif;
+	color: #FFF;
+	text-align:center;
+	padding-bottom:15px;
+	/*border-bottom: 3px solid #FFF;*/
+	text-shadow: 0 0 10px #fff,
+	       0 0 20px #fff,
+	       0 0 30px #fff,
+	       0 0 40px #ff00de,
+	       0 0 70px #ff00de,
+	       0 0 80px #ff00de,
+	       0 0 100px #ff00de,
+	       0 0 150px #ff00de;
+}
+
+
+/*no idea why margin 0 auto wouldn't work on the actual canvas element...*/
+#canvasCenter{
+	width:1026;
+	height:770;
+	margin:0 auto;
+}
+
+#canvas{
+	width:1024;
+	height:768;
+	margin:0 auto;
+	border:1px solid white;
+}
+
+
+
+button{
+	z-index:400;
+	font-family: 'Michroma', sans-serif;
+	width:100px;
+	margin-left:250px;
+	background: #999;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #222;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+	border:none;
+}
+
+button:hover{
+	background:#555;
+}
+
+
+/* ----------------Moving background for webkit browsers?------------------
+
+------------------Wont work after adding canvas to the html---------------- */
+
+@-webkit-keyframes STAR-MOVE {
+	from {
+		background-position: 5% 5%
+	}
+	to {
+		background-position: 1300% 600%
+	}
+}
+
+#background {
+	background: black url(images/background.png) repeat 5% 5%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 2;
+
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 200s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#midground {
+	background: url(images/midground.png) repeat 20% 20%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 3;
+
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 150s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#foreground {
+	background: url(images/foreground.png) repeat 35% 35%;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 4;
+
+	-webkit-animation-name: STAR-MOVE;
+	-webkit-animation-duration: 100s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+}
+
+/* ----------------END Moving background for webkit browsers?------------------*/

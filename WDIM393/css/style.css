@@ -1,0 +1,292 @@
+body{
+  background-color:hsla(180, 25%, 25%,1);
+  background: url(../img/pattern.jpg) repeat;
+  color:hsla(180,35%,15%,1);
+  font-family: 'Glegoo', serif;
+	-pie-background: linear-gradient(top, rgba(72, 209, 204,.3),rgba(62, 199, 194,.6)) 45%, rgba(52, 189, 184,.1) 100%);
+	behavior: url(pie/PIE.htc);
+}
+header, section, footer{
+  width:960px;
+  margin:0 auto;
+}
+#head{
+  background-image: url(../img/circle.png), url(../img/crest-flourishes-1-white.png);
+}
+#welcome{
+    padding-top:25px;
+}
+section{
+  background: hsla(180,25%,95%,1);
+}
+nav a{
+  text-decoration:none;
+  color:hsla(0, 0%,95%, 1);
+  padding:5px 10px;
+}
+
+nav li{
+  padding:5px;
+  background:-moz-linear-gradient(top, rgba(72, 209, 204,.3),rgba(62, 199, 194,.6)) 45%, rgba(52, 189, 184,.1) 100%);
+  background:-webkit-linear-gradient(top, rgba(72, 209, 204,.3),rgba(62, 199, 194,.6)) 45%, rgba(52, 189, 184,.1) 100%);
+  background: linear-gradient(top, rgba(72, 209, 204,.3),rgba(62, 199, 194,.6)) 45%, rgba(52, 189, 184,.1) 100%);
+  background-color: hsla(180, 55%,35%, 1);
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+  display:inline-block;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+	behavior: url(PIE.htc);
+}
+nav li:first-child{
+  border-radius:8px 0 0 8px;
+}
+nav li:last-child{
+  border-radius:0 8px 8px 0;
+}
+nav li:hover{
+  background-color: hsla(180, 65%,65%, 1);
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+nav li:active{
+  background:-moz-linear-gradient(top, hsla(180, 35%, 15%,1),hsla(180, 45%, 25%,.6) 45%, hsla(180, 55%, 35%,.3) 100%);
+  background:-webkit-linear-gradient(top, hsla(180, 35%, 15%,1),hsla(180, 45%, 25%,.6) 45%, hsla(180, 55%, 35%,.3) 100%);
+  background: linear-gradient(top, hsla(180, 35%, 15%,1),hsla(180, 45%, 25%,.6) 45%, hsla(180, 55%, 35%,.3) 100%);
+  background-color: hsla(180, 65%,65%, 1);
+  box-shadow:1px 1px 1px hsla(180,35%,15%,1);
+}
+h1{
+  font-size:36px;
+  padding:30px 0 0 50px;
+  
+}
+h2{
+  font-size:20px;
+  padding:15px 0 0 50px;
+}
+
+header ul{
+  padding:15px 50px;
+}
+p{padding:12px 25px 12px 25px;}
+/* ------ Specified news sections -------*/
+section:not(#welcome) {padding-top:25px;}
+section:not(#welcome) h1{
+  font-size:28px;
+  position:relative;
+  background-image:-moz-linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+  background-image:-webkit-linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+  background-image: linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+  width:190px;
+  left:-15px;
+  padding:10px;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:2px;
+  border-bottom-left-radius:2px;
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+	-pie-background: linear-gradient(top, #eeaacc ,#22ccee 45%, #ffcc33 100%);
+  behavior: url(pie/PIE.htc);
+}
+
+section:not(#welcome) h1:before{
+  z-index:-2;
+  position:absolute; top: -2px; left: 0px;
+  display:block;
+  height:50px;
+  width:50px;
+  background: hsla(180,35%,25%,1);
+  transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin:bottom left;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  content:"";
+
+}
+
+/* ----------------- WELCOME SECTION ------------------ */
+
+section#welcome {
+  position:relative;
+  background:-moz-linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(195, 45%, 60%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(190, 45%, 60%,1) 100%);
+  background:linear-gradient(top, hsla(190, 70%, 80%,1),hsla(190, 55%, 70%,1) 45%, hsla(190, 45%, 60%,1) 100%);
+  padding:10px;
+  border-radius:2px;
+  width:980px;
+  height:350px;
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+	padding-bottom:30px;
+
+}
+
+#welcome:before{
+  z-index:-2;
+  position:absolute; bottom:0; left:0;
+  display:block;
+  height:50px;
+  width:50px;
+  background:hsla(190,50%,40%,1);
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin:bottom left;
+  transform-origin:bottom left;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+  content:"";
+
+}
+
+#welcome h1:after{ /*Won't work on section*/
+  z-index:-2;
+  position:absolute; top:-17px; right:-2px;
+  display:block;
+  height:50px;
+  width:50px;
+  background:hsla(190,50%,50%,1);
+  -webkit-transform-origin:top left;
+  -moz-transform-origin:top left;
+  transform-origin:top left;
+  -webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  transform: rotate(20deg);
+  content:"";
+}
+
+#welcome h1 {
+  padding-left:10px;
+  font-size:72px;
+  text-shadow:1px 1px 0 #fff;
+}
+#welcome h2 {
+  padding-left:15px;
+  font-size:40px;
+}
+
+#welcome p, #welcome h2 {text-shadow:1px 1px 2px hsla(190,50%,50%,1);}
+
+#welcome p#contact {
+  text-shadow:0 0 0;
+  margin-top:0;
+}
+
+#contact a{
+  display:block;
+  float:right;
+  margin-right:100px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:none;
+  padding: 5px 10px;
+  color:hsla(40,95%,15%,1);
+  background:-moz-linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  background: linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  border-radius:5px;
+  box-shadow:2px 2px 3px hsla(55,35%,15%,1);
+  -webkit-transition-property:scale;
+  -moz-transition-property:scale;
+  transition-property:scale;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#contact a:hover{
+  color:hsla(40,95%,15%,1);
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
+#contact a:active{
+  box-shadow:1px 1px 1px hsla(55,35%,15%,1);
+  color:hsla(40,95%,15%,1);
+  background:-moz-linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+  background: linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+}
+
+/* ----------------- END WELCOME ------------------ */
+
+/* ----------------- MORE ADDED ------------------ */
+
+#news article h2 {padding-left:25px;}
+#news article h2:before {content:"Posted by: ";}
+
+#head h2 {
+  padding-bottom:15px;
+  font-size:30px;
+}
+
+html body section#page section.member article.project h1 {
+  background:none;
+  box-shadow:0 0 0;
+  left:40px;
+  width:80%;
+}
+html body section#page section.member article.project h1:before {display:none;}
+
+p, figcaption {line-height:1.6em;}
+
+img {margin:15px; margin-top:0;}
+
+.project figure {overflow-y:hidden;}
+.project figure a, .project figure img {float:left;}
+
+/* ----------------- END ADDED ------------------ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+  	
+footer{
+ background-color:hsla(180, 25%, 25%,.5);
+ display:block;
+ margin-bottom:20px;
+}
+
+footer p{
+ margin: 0 330px;
+ padding: 12px 0 12px 0;
+ color:hsla(180,35%,55%,1);
+ width:300px;
+ text-align:center;
+}
+
+footer a{
+ margin-bottom: 10px;
+ text-decoration:none;
+ color:hsla(180,35%,35%,1);
+}
+
+footer a:hover{
+ text-decoration:none;
+ color:#4ac3c3;
+}
+
+footer progress{
+ margin: 10px 380px;
+ text-decoration:none;
+ color:hsla(180,35%,55%,1);
+ width:200px;
+}

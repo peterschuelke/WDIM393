@@ -1,0 +1,158 @@
+body{
+  
+  background-color:hsla(200, 20%, 81%,2);
+  background-repeat:no-repeat;
+  color:hsla(180,35%,15%,1);
+  font-family: 'Glegoo', serif;
+  margin:0;
+  padding:0;
+}
+header, section, footer{
+  padding:0;
+}
+
+#head{
+  background-color:white;
+}
+
+#head h2{
+	text-align:center;
+	padding:0px;
+}
+
+#welcome{
+    padding-top:25px;
+	padding-bottom:25px;
+}
+section{
+  background: hsla(200, 20%, 81%,2);
+}
+
+nav a{
+	text-decoration:none;
+	  color:hsla(0, 0%,95%, 1);
+  margin:0 auto;
+  padding:15px;
+  margin-top:15px;
+  background:-moz-linear-gradient(top, hsla(180, 55%, 35%,.3),hsla(180, 45%, 25%,.6) 45%, hsla(180, 35%, 15%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(180, 55%, 35%,.3),hsla(180, 45%, 25%,.6) 45%, hsla(180, 35%, 15%,1) 100%);
+  background: linear-gradient(top, hsla(180, 55%, 35%,.3),hsla(180, 45%, 25%,.6) 45%, hsla(180, 35%, 15%,1) 100%);
+  background-color: hsla(180, 55%,35%, 1);
+  box-shadow:2px 2px 3px hsla(180,35%,15%,1);
+  display:block;
+  width:150px;
+  text-align:center;
+  border-radius:8px 8px 8px 8px;
+}
+
+
+nav a:hover{
+
+  background-image:-moz-linear-gradient(top, hsla(180, 55%, 45%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 35%, 25%,1) 100%);
+  background-image:-webkit-linear-gradient(top, hsla(180, 55%, 45%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 35%, 25%,1) 100%);
+  background-image: linear-gradient(top, hsla(180, 55%, 45%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 35%, 25%,1) 100%);
+  border-radius:4px;
+}
+nav a:active{
+  background-image:-moz-linear-gradient(top, hsla(180, 55%, 25%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 35%, 45%,1) 100%);
+  background-image:-webkit-linear-gradient(top, hsla(180, 35%, 25%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 55%, 45%,1) 100%);
+  background-image: linear-gradient(top, hsla(180, 35%, 25%,1),hsla(180, 45%, 35%,1) 45%, hsla(180, 55%, 45%,1) 100%);
+  box-shadow:1px 1px 1px hsla(180,35%,15%,1);
+}
+#contact a{
+  float:right;
+  margin-right:100px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:none;
+  padding: 5px 10px;
+  color:hsla(40,95%,15%,1);
+  background:-moz-linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  background: linear-gradient(top, hsla(55, 95%, 85%,1),hsla(55, 95%, 46%,1) 45%, hsla(43, 85%, 35%,1) 100%);
+  border-radius:5px;
+  box-shadow:2px 2px 3px hsla(55,35%,15%,1);
+  -webkit-transition-property:scale;
+  -webkit-transition-duration: 0.3s;
+}
+#contact a:hover{
+  color:hsla(40,95%,15%,1);
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+
+}
+#contact a:active{
+  box-shadow:1px 1px 1px hsla(55,35%,15%,1);
+  color:hsla(40,95%,15%,1);
+  background:-moz-linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+  background:-webkit-linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+  background: linear-gradient(top, hsla(43, 85%, 35%,1),hsla(55, 95%, 46%,1) 45%, hsla(55, 95%, 85%,1) 100%);
+}
+
+h1{
+  font-size:24px;
+  padding:30px 0 15px 0px;
+  padding-left:30px;
+}
+h2{
+  font-size:20px;
+  padding:15px 0 0 30px;
+}
+
+header ul{
+  padding:15px 0px;
+}
+p{
+  line-height:22px;
+  padding:12px 15px;
+}
+section h1{
+  font-size:28px;
+  padding-top:25px;
+  background-image:-moz-linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+  background-image:-webkit-linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+  background-image: linear-gradient(top, hsla(180, 55%, 55%,1),hsla(180, 45%, 45%,1) 45%, hsla(180, 35%, 35%,1) 100%);
+
+
+  box-shadow:0px 2px 3px hsla(180,35%,15%,1);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+	
+footer{
+	 background-color:hsla(200, 25%, 25%,1);
+	 display:block;
+}
+
+footer p{
+	color:hsla(180,35%,15%,1);
+	display:block;
+	text-align:center;
+}
+
+footer a{
+	 text-decoration:none;
+	 color:hsla(180,35%,15%,1);
+}
+
+footer a:hover{
+	 text-decoration:none;
+	 color:#4ac3c3;
+}
+
+footer progress{
+	 margin-top:10px;
+	 margin-left:92px;
+	 text-decoration:none;
+	 color:hsla(180,35%,15%,1);
+}
